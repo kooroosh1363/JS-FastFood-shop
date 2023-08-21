@@ -7,16 +7,16 @@
     
     /* font and typography */
     --font-body: 'Lora', serif;
-    --font-sec: ;
-    --font-big-1: ;
-    --font-big-2: ;
-    --font-h1: ;
-    --font-h2: ;
-    --font-h3: ;
-    --normal-font:;
-    --large-1-font:;
-    --large-2-font:;
-    
+    --font-sec: 'Open Sans', sans-serif;
+    --font-big-1: 5.5rem;
+    --font-big-2: 3.5rem;
+    --font-h1: 2.7rem;
+    --font-h2: 1.65rem;
+    --font-h3: 1.5rem;
+    --normal-font: 1.30rem;
+    --large-1-font:1.30rem;
+    --large-2-font: 1rem;
+
 
 
 
