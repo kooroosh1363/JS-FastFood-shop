@@ -40,7 +40,7 @@
 
 }
 
-
+/* general css */
 
 *{
     margin: 0;
@@ -93,3 +93,36 @@ h1,h2,h3,h4{
 img{
     max-width: 100%;
 }
+
+
+/* general css */
+
+
+/* container */
+.container{
+    max-width: 1320px;
+    padding-inline: 0.80rem;
+}
+/* container */
+
+
+/* grid */
+.grid{
+    display: grid;
+    gap: 1.6rem;
+}
+/* grid */
+
+
+/* home */
+.home{
+    background-image: url(../images/background.jpg);
+}
+/* home */
+
+/* content_home */
+.content_home{
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+/* content_home */
