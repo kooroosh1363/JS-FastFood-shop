@@ -19,10 +19,6 @@
 
 
 
-
-
-
-
     /* colors */
     --first: hsl(60, 100%, 50%);
     --second: hsl(0, 100%, 50%);
@@ -31,7 +27,69 @@
     --body:  hsl(420, 39%, 100%);
     --container: hsl(60, 39%, 0%);
 
+    /* transition */
+    --transition:ease-n-out;
+
     /* header-height */
     --header-height: 5rem;
 
+    /* font-w */
+    --font-w-500:500;
+
+
+
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: var(--body);
+}
+
+input,
+button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+
+input,
+button,
+body{
+    font-family: var(--font-sec);
+    font-size: var(--normal-font);
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+p{
+    line-height: 1.8rem;
+}
+
+h1,h2,h3,h4{
+    color: var(--title);
+    font-family: var(--font-sec);
+    font-weight: var(--font-w-500);
+}
+
+
+img{
+    max-width: 100%;
 }
