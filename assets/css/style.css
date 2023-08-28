@@ -64,7 +64,7 @@ button {
 input,
 button,
 body{
-    font-family: var(--font-sec);
+    font-family: var(--font-body);
     font-size: var(--normal-font);
 }
 
@@ -98,6 +98,9 @@ img{
 /* general css */
 
 
+
+
+/* swiper-s */
 /* container */
 .container{
     max-width: 1320px;
@@ -116,7 +119,8 @@ img{
 
 /* home */
 .home{
-    background-image: url(../images/background.jpg);
+    background-color: black;
+    /* background-image: url(../images/background.jpg); */
     padding-block: 11rem 3.30rem;
 }
 /* home */
@@ -133,7 +137,68 @@ img{
 
 
 /* subT_home-s */
-.subT_home-s{
-    
+.subT_home{
+    font-size: var(--font-h3);
+    color: var(--second);
+    font-weight: bolder;
 }
 /* subT_home-e */
+
+
+/* title_home-s */
+.title_home{
+    color: var(--first);
+    font-size: var(--font-big-1);
+    font-weight: bold;
+    margin-bottom: .7rem;
+}
+/* title_home-e */
+
+
+/* desc_home-s */
+.desc_home{
+    color:var(--body);
+    font-size: var(--large-1-font);
+    max-width: 420px;
+    margin-bottom: 4rem;
+}
+/* desc_home-e */
+
+/* swiper-e */
+
+
+
+/* button-s */
+.btn{
+    display: inline-block;
+    background-color: var(--second);
+    color: var(--body);
+    font-family: var(--font-sec);
+    padding: 1.20rem 2.5rem;
+    position: relative;
+    
+}
+
+.btn::before{
+    content: "";
+    position: absolute;
+    inset-block: -0.5rem;
+    right: -0.5rem;
+    border: 3px solid var(--second);
+    width: calc(100% - 1rem);
+    z-index: -1;
+    transition: all 0.3s var(--transition);
+}
+
+.btn,
+.btn::before{
+    border-radius: 10px;
+}
+
+
+.btn:hover::before{
+    width: 30%;
+}
+/* button-e */
+
+
