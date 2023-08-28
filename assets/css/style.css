@@ -122,6 +122,18 @@ img{
     background-color: rgb(59, 58, 58);
     /* background-image: url(../images/background.jpg); */
     padding-block: 11rem 3.30rem;
+    position: relative;
+}
+
+.home::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 30%;
+    width: 885px;
+    height: 420px;
+    background-color: var(--second);
+    border-radius: 14rem 0 0 14rem;
 }
 /* home */
 
