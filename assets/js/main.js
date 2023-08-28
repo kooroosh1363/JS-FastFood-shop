@@ -9,9 +9,9 @@
 
 
 // swiper-home-1-4-s
-var swiperHome = new Swiper(".swiper-home", {
+var homeSwiper = new Swiper(".home-swiper", {
+    spaceBetween: 30,
     loop:'true',
-    spaceBetween:30,
     pagination: {
       el: ".swiper-pagination",
     },
