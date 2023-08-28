@@ -14,6 +14,7 @@ var homeSwiper = new Swiper(".home-swiper", {
     loop:'true',
     pagination: {
       el: ".swiper-pagination",
+      clickable: true,
     },
 
     navigation: {
