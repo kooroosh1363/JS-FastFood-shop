@@ -201,7 +201,30 @@ img{
 .swiper-button-next,
 .swiper-button-prev{
     border: 1px solid var(--body);
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    color: var(--body);
+    font-size: var(--large-2-font);
+    top: 95%;
+    transition: all 0.3s var(--transition);
 }
+
+
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover{
+    background-color: var(--second);
+    border-color: var(--second);
+}
+
+.swiper-button-next{
+    right: 1rem;
+}
+.swiper-button-prev{
+    left: 1rem;
+}
+
 
 /* swiper-e */
 
