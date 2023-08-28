@@ -15,5 +15,10 @@ var homeSwiper = new Swiper(".home-swiper", {
     pagination: {
       el: ".swiper-pagination",
     },
+
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
   });
 // swiper-home-1-4-e
