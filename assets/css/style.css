@@ -117,12 +117,23 @@ img{
 /* home */
 .home{
     background-image: url(../images/background.jpg);
+    padding-block: 11rem 3.30rem;
 }
 /* home */
 
+
 /* content_home */
-.content_home{
+.home__content {
+    
     grid-template-columns: repeat(2, 1fr);
-    align-items: center;
+    align-items: center; /* or align-items: flex-start; */
 }
 /* content_home */
+
+
+
+/* subT_home-s */
+.subT_home-s{
+    
+}
+/* subT_home-e */

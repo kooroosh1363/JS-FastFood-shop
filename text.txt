@@ -1,0 +1,76 @@
+<div class="swiper container home-swiper">
+                <div class="swiper-wrapper">
+                    <!-- swiper-1-s -->
+                    <div class="grid swiper-slide content-home ">
+                        <div class="data_home ">
+                            <h3 class="subT_home">Lorem ipsum dolor sit amet consectetur.</h3>
+                            <h1 class="title_home">BIG DONER</h1>
+                            <p class="desc_home">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab et ex modi.</p>
+
+
+                            <a href="#menu" class="btn"> Our Menu</a>
+                        </div>
+
+
+                        <div>
+                            <img src="./assets/images/doner-s-1.png" alt="doner-big" class="img_home">
+                        </div>
+                    </div>
+                    <!-- swiper-1-e -->
+
+                    <!-- swiper-2-s -->
+                    <div class="grid swiper-slide content-home">
+                        <div class="data_home">
+                            <h3 class="subT_home">Lorem ipsum dolor sit amet consectetur.</h3>
+                            <h1 class="title_home">BEST DONER</h1>
+                            <p class="desc_home">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab et ex modi.</p>
+
+
+                            <a href="#menu" class="btn"> Our Menu</a>
+                        </div>
+
+
+                        <div>
+                            <img src="./assets/images/doner-s-2.png" alt="doner-big" class="img_home">
+                        </div>
+                    </div>
+                    <!-- swiper-2-e -->
+
+                    <!-- swiper-3-s -->
+                    <div class="grid swiper-slide content-home">
+                        <div class="data_home">
+                            <h3 class="subT_home">Lorem ipsum dolor sit amet consectetur.</h3>
+                            <h1 class="title_home">Delicious DONER</h1>
+                            <p class="desc_home">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab et ex modi.</p>
+
+
+                            <a href="#menu" class="btn"> Our Menu</a>
+                        </div>
+
+
+                        <div>
+                            <img src="./assets/images/doner-s-3.png" alt="doner-big" class="img_home">
+                        </div>
+                    </div>
+                    <!-- swiper-3-e -->
+
+
+                    <!-- swiper-4-s -->
+                    <div class="grid swiper-slide content-home">
+                        <div class="data_home">
+                            <h3 class="subT_home">Lorem ipsum dolor sit amet consectetur.</h3>
+                            <h1 class="title_home">FAST DONER</h1>
+                            <p class="desc_home">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab et ex modi.</p>
+
+
+                            <a href="#menu" class="btn"> Our Menu</a>
+                        </div>
+
+
+                        <div>
+                            <img src="./assets/images/doner-s-4.png" alt="doner-big" class="img_home">
+                        </div>
+                    </div>
+                    <!-- swiper-4-e -->
+                </div>
+            </div>
