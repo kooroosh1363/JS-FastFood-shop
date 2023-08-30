@@ -117,6 +117,26 @@ img{
 }
 /* grid */
 
+/* section */
+.section{
+    padding-block: 7.5rem;
+}
+
+.container_section{
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 3rem;
+}
+
+.title_section{
+    font-size: var(--font-big-1);
+}
+
+.title_section,
+.desc_section{
+    width: 80%;
+}
+/* section */
+
 
 /* home */
 .home{
@@ -331,3 +351,11 @@ img{
 }
 /* link active-s */
 /* header and nav-e */
+
+
+
+
+
+/* ABOUT-s */
+
+/* ABOUT-e */
