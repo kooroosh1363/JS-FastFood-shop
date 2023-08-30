@@ -325,6 +325,9 @@ img{
 }
 
 /* link active-s */
-
+.active-link,
+.link_nav:hover{
+    color: var(--second);
+}
 /* link active-s */
 /* header and nav-e */
