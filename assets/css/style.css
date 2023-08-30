@@ -168,6 +168,28 @@ img{
 .data_sec_title{
     font-size: var(--font-h3);
 }
+
+.center_title{
+    text-align: center;
+    margin-bottom: 5rem;
+    position: relative;
+    max-width: 800px;
+    margin-inline: auto;
+    
+}
+
+
+.center_title::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -1.30rem;
+    width: 270px;
+    height: 14px;
+    border-radius: 1.5rem;
+    background-color: var(--first);
+    transform: translateX(-50%);
+}
 /* section */
 
 
