@@ -172,9 +172,9 @@ img{
 
 
 
+/*  */
 
-
-
+ 
 /* home */
 .home{
     background-color: rgb(59, 58, 58);
@@ -394,5 +394,94 @@ img{
 
 
 /* ABOUT-s */
+.container_about{
+    grid-template-columns: repeat(3, 1fr);
+}
 
+
+.item_about{
+    position: relative;
+}
+
+.top_about,
+.hover_about{
+    position: absolute;
+}
+
+.top_about{
+    inset: 1.30rem;
+    border: 4px solid var(--first);
+    transition: all 0.4s var(--transition);
+}
+
+
+
+.item_about:hover .top_about{
+    opacity: 0;
+}
+
+
+.top_about_title{
+    padding-block: .80rem;
+    background-color: var(--first);
+    font-size: var(--font-h3);
+    text-align: center;
+    position: absolute;
+    bottom: -1px;
+    inset-inline: -3px;
+    font-weight: var(--font-w-700);
+    
+}
+
+.top_about,
+.top_about_title,
+.img_about,
+.hover_about{
+    border-radius: 1.80rem;
+}
+
+.hover_about{
+    inset: 0;
+    background-color: hsla(350, 90%, 50%, 0.9);
+    padding-inline: 3rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    transform: rotateY(90deg) scale(0.5);
+    transition: all 0.2s var(--transition);
+}
+
+
+.item_about:hover .hover_about{
+    transform: rotateY(0deg) scale(1);
+}
+
+.title_hover_about,
+.desc_about{
+    color: var(--body);
+}
+
+.title_hover_about{
+    font-size: var(--font-h2);
+}
+
+.desc_about{
+    margin-block: 1.30rem 3rem;
+}
+
+.btn_about{
+    background-color: var(--body);
+    color: var(--title);
+    font-weight: var(--font-w-700);
+}
+
+
+.btn_about::before{
+    all: unset;
+}
+
+.img_about{
+    width: 100%;
+    vertical-align: middle;
+}
 /* ABOUT-e */
