@@ -35,6 +35,8 @@
 
     /* font-w */
     --font-w-500:500;
+    --font-w-900:900;
+    --font-w-700:700;
 
 
 
@@ -128,12 +130,43 @@ img{
 }
 
 .title_section{
-    font-size: var(--font-big-1);
+    font-size: var(--font-big-2);
+    font-weight: var(--font-w-700);
 }
 
 .title_section,
 .desc_section{
     width: 80%;
+}
+
+.subtitle_section{
+    display: block;
+    color: var(--second);
+    font-size: var(--large-1-font);
+    font-family: var(--font-sec);
+    font-weight: var(--font-w-900);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: .30rem;
+}
+
+.desc_section{
+    margin-bottom: 1.5rem;
+}
+
+.data_section{
+    display: flex;
+    align-items: center;
+    column-gap: 1.30rem;
+}
+
+.img_section{
+    width: 90px;
+    border-radius: 50%;
+}
+
+.data_sec_title{
+    font-size: var(--font-h3);
 }
 /* section */
 
