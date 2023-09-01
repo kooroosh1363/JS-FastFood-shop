@@ -25,7 +25,7 @@
     --text: hsl(420, 50%,49%);
     --title: hsl(60, 39%, 0%);
     --body:  hsl(420, 39%, 100%);
-    --container: hsl(60, 39%, 0%);
+    --container: hsl(0, 0%, 89%);
 
     /* transition */
     --transition:ease-n-out;
@@ -507,3 +507,42 @@ img{
     vertical-align: middle;
 }
 /* ABOUT-e */
+
+
+
+
+
+
+
+
+/* menu-s */
+.menu{
+    background-color: var(--container);
+}
+
+
+.container_menu{
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+
+.img_menu{
+    width: 100px;
+}
+
+/* .bb{
+    margin-bottom: 80px;
+}
+
+.gg{
+    padding-top: 15px;
+} */
+.item_menu{
+    background-color: var(--body);
+    border-radius: 1.7rem;
+    position: relative;
+    margin-left: 4.5rem;
+    padding: 3.35rem 1.5rem 3.25rem 7.5rem;
+}
+/* menu-e */
