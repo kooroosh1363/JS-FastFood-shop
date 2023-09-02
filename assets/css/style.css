@@ -655,4 +655,42 @@ img{
     height: 5px;
     background-color: var(--title);
 }
+
+
+.list_opening{
+    margin-bottom: 1.75rem;
+}
+
+
+.list_opening :is(dt, dd){
+    color: var(--title);
+    font-family: var(--font-sec);
+}
+
+.list_opening .close{
+    color: var(--second);
+}
+
+.list_opening dt{
+    float: left;
+}
+
+.list_opening dd {
+    text-align: right;
+    margin-bottom: 1.25rem;
+
+}
+
+
+.data_open{
+    background-color: var(--second);
+    padding: 1.25rem;
+    border-radius: 1.75rem;
+    text-align: center;
+}
+
+
+
+
+
 /* menu-e */
