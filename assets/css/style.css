@@ -764,9 +764,56 @@ img{
 
 
 
+/* deal-s */
+.deal{
+    padding-top: 0;
+}
+
+.title_section .deal{
+    margin-bottom: 3rem;
+}
+
+.container_deal{
+    grid-template-columns: 5fr 7fr;
+    
+}
+
+.btns_tab{
+    background-color: var(--second);
+    border-radius: 1.80rem;
+    padding: 2.75rem;
+}
+
+.btn_tab{
+    display: block;
+    background-color: var(--body);
+    color: var(--title);
+    padding: 1.30rem;
+    padding-left: 2.5rem;
+    border-radius: 1rem;
+    font-family: var(--font-sec);
+    font-size: var(--large-1-font);
+    position: relative;
+    cursor: pointer;
+}
+
+.btn_tab:not(:last-child){
+    margin-bottom: 0.25rem;
+}
+
+
+.btn_tab.tab_active{
+    background-color: var(--first);
+}
+
+.item_tab:not(.tab_active){
+    display: none;
+}
+/* deal-e */
 
 
 
 
 
-/* menu-e */
+
+
