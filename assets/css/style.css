@@ -806,8 +806,45 @@ img{
     background-color: var(--first);
 }
 
+.btn_tab::before{
+    content: '';
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    background-color: hsl(0, 0%,71%);
+    border-radius: 50%;
+}
+
+
+.btn_tab.tab_active::before{
+    background-color: var(--second);
+}
+
+
 .item_tab:not(.tab_active){
     display: none;
+}
+
+
+.item_tab{
+    border: 8px solid var(--first);
+    border-radius: 1.30rem;
+    padding: 3rem;
+}
+
+.deal_title{
+    font-size: var(--font-h1);
+    margin-bottom: 2rem;
+}
+
+.list_quality{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1.75rem;
+    margin-bottom: 2.5rem;
 }
 /* deal-e */
 
