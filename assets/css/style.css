@@ -723,8 +723,40 @@ img{
 }
 
 
+.item_services{
+    text-align: center;
+}
+
+
+.img_services_wrapp{
+    background-color: var(--first);
+    display: gird;
+    place-items: center;
+    margin-inline: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid var(--body);
+    outline: 5px solid var(--first);
+    cursor: pointer;
+}
+
+
 .img_services{
     font-size: 100px;
+}
+
+
+.title_services{
+    font-size: var(--font-h3);
+    margin-block: 1.25rem 0.25rem;
+    cursor: pointer;
+    transition: all .3s var(--transition);
+    font-weight: var(--font-w-700);
+}
+
+.title_services:hover{
+    color: var(--second);
 }
 /* services-e */
 
