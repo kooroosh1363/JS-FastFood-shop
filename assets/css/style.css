@@ -690,6 +690,28 @@ img{
 }
 
 
+.data_open h3,
+.desc_open{
+    color: var(--body);
+}
+
+.data_open h3{
+    border-bottom: 5px solid var(--first);
+    font-size: var(--font-h2);
+    display: inline;
+}
+
+.desc_open{
+    font-size: var(--normal-font);
+    margin-top: 1.30rem;
+}
+
+
+
+
+
+
+
 
 
 
