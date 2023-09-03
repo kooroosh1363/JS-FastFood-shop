@@ -706,6 +706,28 @@ img{
     margin-top: 1.35rem;
 }
 
+/* menu-e */
+
+
+
+
+
+
+/* services-s */
+.container_services, .services{
+    align-items: center;
+}
+
+.container_services{
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+.img_services{
+    font-size: 100px;
+}
+/* services-e */
+
 
 
 
