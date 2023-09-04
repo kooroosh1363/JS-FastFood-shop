@@ -846,6 +846,42 @@ img{
     row-gap: 1.75rem;
     margin-bottom: 2.5rem;
 }
+
+.item_list,
+.price_deal{
+    display: flex;
+    align-items: center;
+    column-gap: .630rem;
+}
+
+.title_list{
+    color: var(--text);
+    font-size: var(--large-1-font);
+}
+
+.price_deal {
+    margin-bottom: 2rem;
+}
+
+.price_deal p{
+    font-weight: var(--font-w-700);
+}
+
+.price_deal del{
+    font-family: var(--font-sec);
+    font-weight: var(--font-w-500);
+}
+
+.price_deal p,
+.price_deal p span{
+    color: var(--second);
+    font-weight: var(--font-w-900);
+    font-size: 50px;
+}
+
+.price_deal del{
+    font-size: var(--font-h3);
+}
 /* deal-e */
 
 
