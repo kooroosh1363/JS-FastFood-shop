@@ -932,5 +932,13 @@ img{
     top: 3rem;
 }
 
+.grams_menu{
+    font-family: var(--font-sec);
+    font-weight: var(--font-w-700);
+    display: block;
+    margin-bottom: .5rem;
+    color:rgb(80, 79, 79);
+}
+
 
 
