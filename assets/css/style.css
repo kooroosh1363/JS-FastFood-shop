@@ -944,6 +944,18 @@ img{
 
 
 
+/* gallery-s */
+.container_gallery{
+    grid-template-columns: repeat(5. 1fr);
+    gap: 1.30rem;
+}
+
+/* gallery-e */
+
+
+
+
+
 
 
 /* reservation-s */
