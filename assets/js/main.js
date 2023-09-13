@@ -35,3 +35,15 @@ tabs.forEach((tab) => {
   });
 });
 // deal-js-e
+
+
+// show-scrollup-s
+function upScroll(){
+  const upScroll= document.getElementById('scroll');
+
+  if(this.scrollY >= 350) upScroll.classList.add('scroll_show');
+  else upScroll.classList.remove('scroll_show');
+}
+
+window.addEventListener('scroll', upScroll)
+// show-scrollup-e
