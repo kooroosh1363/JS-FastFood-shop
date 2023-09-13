@@ -1,3 +1,30 @@
+// menu_show-s
+const menuNav = document.getElementById('menu-nav'),
+toggleNav = document.getElementById('toggle-nav'),
+closeNav = document.getElementById('close-nav');
+
+// show
+if (toggleNav){
+  toggleNav.addEventListener("click", () =>{
+    menuNav.classList.add('menu_show')
+  })
+}
+
+// hidden
+if (closeNav){
+  closeNav.addEventListener("click", () =>{
+    menuNav.classList.remove('menu_show')
+  })
+}
+
+// menu_show-e
+
+
+
+
+
+
+
 // swiper-home-1-4-s
 var homeSwiper = new Swiper(".home-swiper", {
   spaceBetween: 30,
