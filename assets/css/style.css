@@ -96,6 +96,9 @@ img{
     max-width: 100%;
 }
 
+.main{
+    overflow: hidden;
+}
 
 /* general css */
 
@@ -1107,3 +1110,35 @@ img{
 
 
 
+
+/* icon_upScroll */
+.upScroll{
+    display: grid;
+    place-items: center;
+    position: fixed;
+    right: 1rem;
+    bottom: 1.5rem;
+    bottom: -100%;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: var(--body);
+    border: 8px solid var(--second);
+    z-index: 100;
+    transition: 0.4s;
+}
+
+.icon_upScroll{
+    font-size: 1.80rem;
+    color: var(--title);
+    font-weight: var(--font-w-700);
+}
+/* icon_upScroll */
+
+
+ /*show icon_upScroll */
+ .scroll_show{
+    bottom: 1.5rem;
+ }
+ /*show icon_upScroll */
+ 
