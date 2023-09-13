@@ -50,6 +50,9 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     background-color: var(--body);
@@ -1166,6 +1169,43 @@ img{
     padding: 1.30rem;
     flex-grow: 1;
 }
+
+.footer_list{
+    margin-bottom: 2.5rem;
+}
+
+
+.footer_list dt{
+    float: left;
+}
+
+.footer_list :is(dt, dd){
+    color: var(--body);
+    font-family: var(--font-sec);
+}
+
+.footer_list dd{
+    margin-left: 7rem;
+    margin-bottom: 1.30rem;
+}
+
+.footer .card_reservation_data{
+    color: var(--body);
+}
+
+.copy_footer{
+    background-color: var(--title);
+    padding-block: 2rem;
+    text-align: center;
+    color: var(--body);
+    font-family: var(--font-sec);
+    font-size: var(--large-1-font);
+}
+
+.copy_footer span{
+    color: var(--second);
+}
+
 /* footer-e */
 
 
