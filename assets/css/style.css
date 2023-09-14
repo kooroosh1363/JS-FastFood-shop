@@ -930,7 +930,7 @@ img {
 /* menu-2-s */
 .two-menu {
     /* display: flex; */
-    grid-template-columns: repeat(4, 1fr) ;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .two-menu .item_menu {
@@ -1414,12 +1414,12 @@ img {
         font-size: 1.80rem;
     }
 
-    .home__content ,
-    .container_section{
+    .home__content,
+    .container_section {
         grid-template-columns: 1fr;
     }
 
-    .home__content{
+    .home__content {
         row-gap: 2.5rem;
     }
 
@@ -1431,61 +1431,60 @@ img {
         text-align: center !important;
     }
 
-    .desc_home ,
-    .img_home{
+    .desc_home,
+    .img_home {
         margin-inline: auto;
     }
 
-    .container_section{
+    .container_section {
         row-gap: 1.30rem;
     }
 
     .title_section,
-    .desc_section{
+    .desc_section {
         width: 100%;
     }
 
     .container_about,
-    .one_menu .container_menu{
+    .one_menu .container_menu {
         grid-template-columns: repeat(2, 1fr);
     }
 
 
-    .open_days{
+    .open_days {
         padding: 1.80rem;
     }
 
-    .data_open{
+    .data_open {
         padding: 1rem;
     }
 
-    .container_services
-    {
+    .container_services {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .two-menu  {
-        grid-template-columns: repeat(2, 1fr) ;
-        
+    .two-menu {
+        grid-template-columns: repeat(2, 1fr);
+
     }
 
     /* .container_gallery{
         grid-template-columns: repeat(2, 1fr) !important;
 
     } */
-   
 
-    .btn_tab{
+
+    .btn_tab {
         padding: 2rem;
     }
 
-    .item_tab{
+    .item_tab {
         padding: 2.4rem;
     }
 }
 
 @media screen and (max-width: 992px) {
-    .container{
+    .container {
         max-width: 720px;
     }
 
@@ -1496,86 +1495,143 @@ img {
         grid-template-columns: 1fr;
     }
 
-    .container_services{
+    .container_services {
         grid-template-columns: repeat(2, 1fr);
     }
 
     .container_deal,
-    .container_footer{
+    .container_footer {
         row-gap: 2.5rem;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .container{
+    .container {
         max-width: 540px;
     }
 
-    :root{
+    :root {
         --font-big-1: 4rem;
         --font-big-2: 2.5rem;
-    
+
     }
 
     .swiper-button-next,
-    .swiper-button-prev{
+    .swiper-button-prev {
         top: 97%;
     }
 
-    .section{
+    .section {
         padding-block: 6rem;
     }
 
     .container_about,
     .container_services,
-    .two-menu ,.container_menu{
+    .two-menu,
+    .container_menu {
         grid-template-columns: 1fr !important;
     }
 
-    .center_title::after{
+    .center_title::after {
         width: 200px;
         height: 8px;
     }
 
-    .two-menu .item_menu{
+    .two-menu .item_menu {
         padding: 1.5rem;
         padding-top: 6rem;
         margin-top: 6rem;
         border-radius: 1rem;
     }
 
-    .two-menu .img_menu_wrapper{
+    .two-menu .img_menu_wrapper {
         left: 1.5rem;
         transform: translateX(0);
     }
 
-    .two-menu .img_menu_wrapper::before{
+    .two-menu .img_menu_wrapper::before {
         all: unset;
     }
 
-    .form_group_reservation{
+    .form_group_reservation {
         grid-template-columns: 1fr;
     }
 
 
-    .container_gallery{
+    .container_gallery {
         grid-template-columns: repeat(3. 1fr);
         gap: 1rem;
     }
 
-    .upScroll{
+    .upScroll {
         width: 50px;
         height: 50px;
         border-radius: 50%;
     }
 
-    .icon_upScroll{
+    .icon_upScroll {
         font-size: 1.5rem;
     }
 }
 
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+    .nav {
+        height: calc(var(--header-height) + 0.5rem);
+    }
 
-@media screen and (max-width: 450px) {}
+    .logo_footer img {
+        width: 120px;
+    }
+
+
+    .menu_nav {
+        width: 100%;
+        padding-inline: 2rem;
+    }
+
+    .home {
+        padding-block: 9rem 2.5rem;
+    }
+
+    :root {
+        --font-big-1: 2.5rem;
+        --font-big-2: 2rem;
+        --font-h1: 1.75rem;
+        
+    }
+
+    .img_services_wrapp{
+        width: 120px;
+        height: 120px;
+    }
+
+    .img_services{
+        width: 60px;
+    }
+
+    .btn_tab::before{
+        width: 12px;
+        height: 12px;
+    }
+
+    .list_quality{
+        grid-template-columns: 1fr;
+        row-gap: 1.25rem;
+    }
+
+    .icon_reservation_wrapp{
+        width: 60px;
+        height: 60px;
+    }
+
+
+    .icon_reservation{
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    
+}
 
 /* media query-e */
