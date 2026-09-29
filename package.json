@@ -1,0 +1,10 @@
+{
+  "name": "biteflow-ordering-engine",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check assets/js/main.js && node --check assets/js/menu-data.js && node --check assets/js/order-store.js && node --check assets/js/pricing.js && node --check assets/js/persistence.js && npm test"
+  }
+}
